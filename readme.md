@@ -1,12 +1,12 @@
 # Swiggy Delivery Time Prediction
-Built a Stacked Linear Regressor combining LightGBM and Random Forest to predict food delivery time using a real-world swiggy dataset.
+Stacked Linear Regressor combining LightGBM and Random Forest to predict food delivery time using a real-world swiggy dataset.
 
 ## Problem Statement 
 In the highly competitive food delivery market, delivery time accuracy is a critical differentiator that directly impacts customer satisfaction, operational efficiency, and bottom-line profitability. 
 
 ## Solution Overview
 This project builds a machine learning pipeline to accurately predict delivery times, which can be integrated into logistics, dispatch systems, or even customer apps to set expectations. 
-The dataset includes real-world factors including rider characteristics, vehicle types, weather conditions, traffic patterns, and restaurant locations. The stacked regressor model (combining LightGBM and Random Forest) provides robust predictions that adapt to dynamic delivery conditions.
+The dataset includes real-world factors, including rider characteristics, vehicle types, weather conditions, traffic patterns, and restaurant locations. The stacked regressor model (combining LightGBM and Random Forest) provides robust predictions that adapt to dynamic delivery conditions.
 
 ## Business Value and Impact
 - Improved Customer Satisfaction: Accurate ETAs reduce uncertainty and build trust, leading to higher CSAT scores
@@ -21,14 +21,14 @@ The dataset includes real-world factors including rider characteristics, vehicle
 - Enhanced overall food delivery experience
 
 #### For the Business
-- Improved operational efficiency and resource utilization
+- Improved operational efficiency and resource utilisation
 - Higher customer satisfaction and retention rates
 - Better strategic decision-making with data-driven insights
 - Competitive advantage in the crowded food delivery market
 
 #### For Delivery Riders
 - Better route planning and time management
-- Increased earning potential through optimized deliveries
+- Increased earning potential through optimised deliveries
 - Reduced pressure and risky driving during peak hours
 - Peace of mind with realistic delivery expectations
 
@@ -41,19 +41,19 @@ The dataset includes real-world factors including rider characteristics, vehicle
 ## Workflow
 - **Data Cleaning**: Handling missing values, feature engineering, extracting time features
 - **EDA**: Visual insights into delivery trends and feature importance
-- **Modeling**: Compared RF, XGB, LGBM, SVM, GB, and KNN using Optuna
-- **Stacked Ensemble**: Final model combines best RF and LGBM with Linear Regression as meta-learner
+- **Modelling**: Compared RF, XGB, LGBM, SVM, GB, and KNN using Optuna
+- **Stacked Ensemble**: Final model combines the best RF and LGBM with Linear Regression as meta-learner
 - **Evaluation Metrics**: MAE and R²
 
 ## Project Structure
 swiggy-delivery-time-prediction/
 │
 ├── data/
-│   ├── raw/                            
+│   ├── raw/
 │   │   └── swiggy.csv
-│   ├── processed/                      
+│   ├── processed/
 │   │   ├── swiggy_cleaned.csv
-│   │   └── swiggy_cleaned_final.csv  
+│   │   └── swiggy_cleaned_final.csv
 │
 ├── notebooks/
 │   ├── 01_data_cleaning_and_inferences.ipynb
@@ -70,7 +70,7 @@ swiggy-delivery-time-prediction/
 │   ├── X_train_trans.pkl
 │   └── y_train_pt.pkl
 │
-├── src/                               
+├── src/
 │   ├── __init__.py
 │   └── data_clean_utils.py
 │
@@ -78,7 +78,7 @@ swiggy-delivery-time-prediction/
 ├── README.md
 └── requirements.txt
 
-## 📦 Dataset Overview
+## Dataset Overview
 
 The dataset contains food delivery records from a food delivery platform (assumed Swiggy-style), with a total of:
 
