@@ -46,15 +46,15 @@ The dataset includes real-world factors, including rider characteristics, vehicl
 - **Evaluation Metrics**: MAE and R²
 
 ## Project Structure
-<pre> '''text
+<pre> 
 swiggy-delivery-time-prediction/
 │
 ├── data/
 │   ├── raw/
 │   │   └── swiggy.csv
-│   ├── processed/
-│   │   ├── swiggy_cleaned.csv
-│   │   └── swiggy_cleaned_final.csv
+│   └── processed/
+│       ├── swiggy_cleaned.csv
+│       └── swiggy_cleaned_final.csv
 │
 ├── notebooks/
 │   ├── 01_data_cleaning_and_inferences.ipynb
@@ -78,8 +78,8 @@ swiggy-delivery-time-prediction/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
-'''
 </pre>
+
 ## Dataset Overview
 
 The dataset contains food delivery records from a food delivery platform (assumed Swiggy-style), with a total of:
