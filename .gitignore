@@ -1,0 +1,28 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Data
+dataset/*.csv
+data/*.csv
+*.log
+
+# Model artifacts
+*.pkl
+*.joblib
+
+# Environment
+.env
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ 
